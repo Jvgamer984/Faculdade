@@ -7,7 +7,7 @@
 </head>
 <body>
     <center><h1>Formulario de cadastro</h1></center>
-    <form>
+    <center><form>
         <label for="campo_nome">Nome:</label>
         <input id="campo_nome" type="text" placeholder="Digite o seu nome"><br>
         <br>
@@ -16,6 +16,20 @@
         <br>
         <label for="campo_data">Data de Nascimento:</label>
         <input id="campo_data" type="date"><br>
+        <br>
+        <label for="campo_email">Email:</label>
+        <input id="campo_email" type="email" placeholder="Digite o seu email" required><br>
+        <br>
+        <h3>Animal de estimaçao</h3>
+        <label for="Dog">Cachorro</label>
+        <input id="Dog" type="radio" name="animal" value="Cachorro"><br>
+        <label for="Cat">Gato</label>
+        <input id="Cat" type="radio" name="animal" value="Gato"><br>
+        <label for="Bird">Pássaro</label>
+        <input id="Bird" type="radio" name="animal" value="Pássaro"><br>
+        <br>
+        <input type="submit" value="Enviar Formulario"><br>
+
     </form>
 </body>
 </html>

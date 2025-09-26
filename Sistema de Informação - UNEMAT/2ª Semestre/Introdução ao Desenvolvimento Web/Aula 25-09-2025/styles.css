@@ -1,0 +1,75 @@
+/* Botão 1 - clássico */
+a.botao1 {
+    background: darkgreen;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border: 4px solid greenyellow;
+    border-radius: 5px;
+}
+a.botao1:hover {
+    background: green;
+    padding: 13px;
+    border: 4px solid rgb(175, 248, 66);
+}
+
+/* Botão 2 - preenchimento */
+a.botao2 {
+    text-decoration: none;
+    padding: 10px;
+    border: 5px double blue;
+    color: blue;
+}
+a.botao2:hover {
+    text-decoration: underline;
+    padding: 8px;
+    background: blue;
+    color: white;
+}
+
+/* Botão 3 - menu */
+a.botao3:hover {
+    border-bottom: 5px solid red;
+}
+
+/* Botão 4 - fonte */
+a.botao4 {
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
+a.botao4:hover {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Botão 5 - cursor */
+a.botao5:hover {
+    cursor: pointer;
+}
+
+/* Display bloco */
+.borda {
+    border: 1px solid red;
+}
+
+/* Display None */
+#p1 {
+    display: none;
+}
+
+/* Display Inline-block */
+.verde {
+    background: green;
+}
+.vermelho {
+    background: red;
+}
+.azul {
+    background: blue;
+}
+div {
+    display: inline-block;
+    width: 20%;
+    height: 150px;
+}

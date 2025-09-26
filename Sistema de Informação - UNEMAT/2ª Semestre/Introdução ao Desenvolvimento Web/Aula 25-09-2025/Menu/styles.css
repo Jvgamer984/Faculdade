@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+background-color: grey;
+}
+nav li {
+display: inline-block;
+}
+
+nav li a{
+display: inline-block;
+color: white;
+text-decoration: none;
+padding: 15px;
+}
+nav li a:hover{
+background-color: red
+}
+.itens a{
+display: block;
+color: black;
+}
+.itens {
+position: absolute;
+border: 1px solid black;
+display: none;
+}
+.Menu:hover .itens{
+display: block;
+}
+.login{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0px;
+}
+.cad{
+    position: absolute;
+    right: 70px;
+    top: 0;
+    padding: 0px;
+}

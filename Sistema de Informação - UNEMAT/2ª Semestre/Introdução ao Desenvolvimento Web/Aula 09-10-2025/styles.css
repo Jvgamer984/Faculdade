@@ -1,0 +1,55 @@
+.flex-pai{
+background: blue;
+display: flex;
+flex-direction: row;
+}
+@media only screen and (max-width: 600px){
+.flex-pai{
+flex-direction: column;
+}
+}
+.flex-pai{
+background: blue;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.flex-pai div{
+background: white;
+border: 1px solid black;
+margin: 5px;
+padding: 30px;
+text-align: center;
+}
+.flex-pai{
+background: blue;
+height: 600px;
+display: flex;
+flex-direction: row;
+flex-flow: row wrap;
+justify-content: center;
+align-items: center;
+}
+
+
+@media only screen and (max-width: 700px) {
+.navbar{
+flex-direction:column ;
+}
+}
+navbar{
+display:flex;
+justify-content: center;
+background: black;
+}
+.navbar a{
+color: white;
+padding: 14px 20px;
+text-decoration: none;
+text-align: center;
+}
+.navbar a:hover{
+background: grey;
+color: black;
+font-weight: bold;
+}

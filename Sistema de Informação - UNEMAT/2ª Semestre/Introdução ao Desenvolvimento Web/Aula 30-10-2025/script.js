@@ -1,0 +1,67 @@
+//var nome;
+
+//nome = "Teste";
+//{
+//nome = "Teste1";
+//}
+//alert(nome);
+///////////////////////////////////////////////////
+//DECLARAÇÃO DE VARIAVEIS
+//let nome;
+//ATRIBUIÇÃO DOS VALORES
+//nome="João";
+//{
+//nome = "Lucas";
+//}
+//alert(nome);
+//////////////////////////////////////////////////////
+//const nome;
+//nome = "Teste";
+//{
+//nome = "Teste1";
+//}
+//alert(nome);
+//////////////////////////////////////////////////////////
+//var total, n1, n2,
+//n1 = 5
+//n2 = 6
+//total = n1 + n2
+//alert(total);
+////////////////////////////////////////////////////////
+///var total, n1, n2,
+//n1 = 3
+//n2 = 6
+//n1 ++;
+//n2 --;
+//total = n1 + n2
+/////////////////////////////////////////
+//alert(total);
+//var n1,n2;
+//n1 = 3
+//n2 = 6
+//n1 += n2
+//alert(n1);
+///////////////////////////////////////
+//var total, n1, n2,
+//n1 = ("José")
+//n2 = ("Vitor")
+//total = n1 +(" ")+ n2
+//alert(total);
+//////////////////////////////////////////
+//var total, n1, n2,
+//n1 = 8
+//n2 = 7
+//total = n1 == n2
+//alert(total);
+////////////////////////////////////////////
+//var total, n1, n2,
+//n1 = 8
+//n2 = 8
+///total = (n1 != n2);
+///alert(total)
+////////////////////////////////////////////
+var valor1, valor2, total;
+valor1= 8;
+valor2= 12;
+total = (valor1 > 12 );
+alert(total);
